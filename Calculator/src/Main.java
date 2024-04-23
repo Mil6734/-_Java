@@ -55,9 +55,9 @@ public class Main {
             if(result <= 0){
                 throw new Exception("В римской системе нет 0 и отрецательных чисел");
             }
-            return RomanNum.values()[result - 1].name(); // ввывод римкого числа -1
+            return RomanNum.values()[result - 1].name(); // вывод римкого числа -1
         }else {
-            return String.valueOf(result); // ввывод строки
+            return String.valueOf(result); // вывод строки
         }
     }
     public static char whatOperation(String input) throws Exception{
